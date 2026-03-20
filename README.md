@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Switchlane
 
-## Getting Started
+Switchlane was built as an entry into the Chainlink Constellation Hackathon 2023
 
-First, run the development server:
+* App - https://switchlane.vercel.app
+* Devpost - https://devpost.com/software/switchlane
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<img src="https://camo.githubusercontent.com/b9abd51d3096d2b00437b1f5ae54f33f3c86542ffdaa23bf34927507ddb72dc0/68747470733a2f2f692e6962622e636f2f4d354770567335372f53637265656e73686f742d323032362d30332d32302d61742d31312d32322d35382d616d2e6a7067" alt="example" width="650">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Cross-Chain Crypto Transfers**: Seamlessly transfer cryptocurrency across multiple blockchains using Chainlink's CCIP (Cross-Chain Interoperability Protocol) and Uniswap liquidity pools.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Gas Fee Sponsorship**: Eliminates time and cost barriers to frequent trading and crypto transfers.
 
-## Learn More
+- **EIP-4337 Alchemy Account Abstraction**: Provides smart wallet integration, improving user experience and transaction flexibility.
 
-To learn more about Next.js, take a look at the following resources:
+- **Modern UI**: An intuitive, animated interface built with Framer Motion for smooth interactions and professional aesthetics.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Wallet Integration**: Connected seamlessly to Web3 wallets RainbowKit and WalletConnect, enabling secure user authentication and transaction signing.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Blockchain**: Solidity, Chainlink CCIP
+- **Account Abstraction**: EIP-4337, Alchemy
+- **Frontend**: React/Next.js, Framer Motion, Tailwind CSS
+- **Wallet Integration**: RainbowKit, WalletConnect
